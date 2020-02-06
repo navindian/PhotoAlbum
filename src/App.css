@@ -1,0 +1,72 @@
+.form-center{
+  margin-top: 100px;
+
+}
+body{
+  
+  overflow-x: hidden;
+  background-color:rgb(253, 220, 179);
+}
+.grid img{
+  width: 150px;
+  height: 150px;
+  transition: 2s;
+  
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+  justify-content: center;
+  grid-gap: 30px;
+  margin-top: 40px;
+  margin-left: 40px;
+  
+ 
+}
+
+.grid img:hover{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.container {
+  position:fixed;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0r;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+
+}
+
+.containerContent{
+  margin: auto;
+  width: 500px;
+  height: 400px;
+  max-width: 1200px;
+}
+.IoMdAlbums{
+  font-size: 150px;
+  color: rgb(226, 226, 84);
+}
+.album{
+
+  text-align: center;
+}
+.album:hover{
+ 
+  border: solid rgb(182, 198, 199);
+}
+.title{
+  cursor: pointer;
+}
+.modalchange img{
+  width: 600px;
+  height: 600px;
+  margin-left: 80px;
+}
